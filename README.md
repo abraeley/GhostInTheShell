@@ -1,3 +1,8 @@
+** IN DEVELOPMENT **
+
+
+
+
 The GhostInTheShell Application is meant to be a "research assistant", although use can easily be extended to scraping the internet for articles or web pages of interest.
 
 The core functionality is to set up a cron job on a Linux system (personal computer or server). The cron job will run once per week and will call out the initiateGhost.sh shell script. When initiating this shell script, several parameters are to be passed in. Each parameter is going to be considered a keyword representing a subject-of-interest with which the application will check articles against as it scrapes the web. Any articles deemed by the application to be of significant enough relevance will have their titles, a URL link to them, and the article abstract emailed to the User of the Linux account.
