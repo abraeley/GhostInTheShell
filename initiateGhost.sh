@@ -22,8 +22,26 @@ echo "Searching for articles pertaining to: "$keyWords
 
 # Use the ghostScraper script to collect articles. Wait for script to finish executing before continuing.
 # The ghostScraper.py script will call
-python ghostScraper.py $keyWords
+#python ghostScraper.py $keyWords
+scrapy startproject pages
 Wait
+scrapy crawl pages
+Wait
+
+
+
+
+
+
+
+
+
+# Feed the pages to the natural language processor
+
+
+
+
+
 
 
 # Email the results from results.db to the researcher
